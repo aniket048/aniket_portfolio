@@ -8,7 +8,7 @@ export const Data = [
       image: Image1,
       title: "Managed Network Expert",
       description:
-        "I am currently the working as Subject Matter Experts (CS) at Chegg India",
+        "I am currently working as Subject Matter Experts (CS) at Chegg India",
     },
     {
       id: 2,
