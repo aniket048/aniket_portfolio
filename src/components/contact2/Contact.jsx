@@ -57,12 +57,12 @@ const Contact = () => {
                     <form className="contact__form" ref={form} onSubmit={sendEmail}>
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Name</label>
-                            <input type="text" name="name" className="contact__form-input" placeholder="Insert your Name" />
+                            <input type="text" name="name" className="contact__form-input" placeholder="Insert your Name" required/>
                         </div>
 
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Email</label>
-                            <input type="email" name="email" className="contact__form-input" placeholder="Insert your Email" />
+                            <input type="email" name="email" className="contact__form-input" placeholder="Insert your Email" required/>
                         </div>
 
                         <div className="contact__form-div contact__form-area">
@@ -72,7 +72,8 @@ const Contact = () => {
                                 cols="30"
                                 rows="10"
                                 className="contact__form-input"
-                                placeholder="Write me a message">
+                                placeholder="Write me a message"
+                                required>
                             </textarea>
                         </div>
 
