@@ -10,6 +10,13 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    filter: grayscale(200%);
+    transition: filter 1s;
+}
+
+.about__img:is(:hover, :focus)
+{
+    filter: grayscale(0%);
 }
 
 .about__info
