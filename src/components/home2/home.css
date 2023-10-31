@@ -69,6 +69,13 @@
     width: 300px;
     height: 300px;
     animation: profile__animate 8s ease-in-out infinite 1s;
+    filter: grayscale(200%);
+    transition: filter 1s;
+}
+
+.home__img:is(:hover, :focus)
+{
+    filter: grayscale(0%);
 }
 
 @keyframes profile__animate {
